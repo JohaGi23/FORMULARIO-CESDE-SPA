@@ -1,0 +1,139 @@
+/* Reset de estilos para eliminar márgenes, rellenos y decoraciones predeterminadas */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  width: 100%;
+  height: 49px;
+  color: #706f6f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  transition: color .3s;
+  box-shadow: 0px 2px 5px 0px rgba(153, 153, 153, 1);
+}
+
+/* Estilos para el contenido colapsable */
+.collapse {
+  width: 900px;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  padding-left: 40px;
+}
+
+/* Estilos para el contenido principal */
+#main {
+  padding: 0 100px;
+}
+
+/* Estilos para los contenedores de artículos */
+.contenedor1 {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+/* Estilos para los artículos */
+.article {
+  height: 165px;
+  width: 398px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estilos para la flecha en los artículos */
+.article .arrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Estilos para los íconos SVG */
+svg {
+  background-color: white;
+  padding: 5px;
+}
+
+/* Estilos para el título de los artículos */
+.article > h3 {
+  padding-left: 20px;
+}
+
+/* Estilos para la flecha en los artículos */
+.arrow {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Estilos para los grupos de formularios */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Estilos de fondo para los diferentes tipos de artículos */
+#desarrollo {
+  background-color: #2bb1aa;
+}
+
+#gastronomia {
+  background-color: #e89900;
+}
+
+#industria {
+  background-color: #bb00e5;
+}
+
+#tecnologia {
+  background-color: #03045e;
+}
+
+#salud {
+  background-color: #009fe3;
+}
+
+#agro {
+  background-color: #6e9921;
+}
+
+/* Estilos para el segundo contenedor */
+.contenedor2 {
+  margin: 0;
+  padding: 0;
+  display: table-column;
+  justify-content: right;
+}
+
+/* Estilos para el enlace de la política */
+.politica {
+  color: black;
+}
+
+/* Estilos al pasar el mouse sobre el enlace de la política */
+.politica:hover {
+  color: #ee2b7a;
+}
+
+/* Estilos para el botón */
+.btn {
+  width: 97px;
+  height: 40px;
+  color: #ee2b7a;
+  border: 1px solid #ee2b7a;
+  border-radius: 0;
+}
+
+/* Estilos al pasar el mouse sobre el botón */
+.btn:hover {
+  background: #ee2b7a;
+  color: white;
+}
